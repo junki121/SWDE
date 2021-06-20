@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReviewActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:background="#09FFA2"
+        android:gravity="center"
+        android:text="COMMENT"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_below="@id/textView1">
+    </ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/list"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/write"
+            android:layout_width="280dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:hint="댓글"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="65dp"
+            android:layout_height="match_parent"
+            android:background="#08D386"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="입력"
+            android:textColor="#FFFFFF"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

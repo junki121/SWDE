@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TextView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_gravity="center"
+                android:background="#09FFA2"
+                android:gravity="center"
+                android:text="정보 게시판"
+                android:textColor="#FFFFFF"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/quit_btn1"
+                android:layout_width="56dp"
+                android:layout_height="31dp"
+                android:layout_gravity="right|center_vertical"
+                android:background="#FAF7EC"
+                android:text="닫기"
+                android:textColor="#000000"
+                android:textSize="14sp" />
+
+        </FrameLayout>
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/info1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 전력데이터 경진대회 개최알림"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교내] 국제 지역사회 공헌 아이디어 및 설계 경진대회 '2021 창의충전소&amp;ap"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 2021 인공지능 온라인 경진대회"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 2021년 부산광역시 공공 · 빅데이터 활용 창업경진대회 개최"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교내] 「2021 잇테리어(ITerior) 메이커스 경진대회」 개최 안내"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교내] 「2021 3D프린팅 로봇 게임 창작 경진대회」 개최 안내"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교내] 제4회 창의융합 소프트웨어 해커톤 참가자 모집 안내"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교내]제1회 PNU SW·AI 문제해결 경진대회 참가자 모집 안내"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] [네이버] 네이버 채용연계형 AI 모델링 챌린지 ‘CLOVA AI RUSH 202"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 타트업 코딩 페스티벌 ‘스코페2021’ 개최 안내"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 구강계질화 의료영상 인공지능(AI) 경진대회"
+                    android:textStyle="bold"/>
+
+                <Button
+                    android:id="@+id/info12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 서울대학교병원 Sleep AI Challenge 경진대회"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 2차)시각정보 기반 질의응답 알고리즘 경진대회"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] 2021년 인공지능/데이터사이언스 경진대회"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/info15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="[교외] [멀티캠퍼스] 코딩테스트 대회 안내"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</FrameLayout>
